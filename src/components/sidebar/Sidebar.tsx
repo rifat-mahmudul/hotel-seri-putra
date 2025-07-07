@@ -22,7 +22,7 @@ const items = [
     icon: Home,
   },
   {
-    title: "All Check In",
+    title: "All Check In List",
     url: "/all-check-in",
     icon: Inbox,
   },
@@ -35,7 +35,7 @@ export function AppSidebar() {
     <Sidebar>
       <SidebarContent className="bg-[#fdd39527]">
         <SidebarGroup>
-          <SidebarGroupLabel className="text-center mx-auto text-5xl mb-5">
+          <SidebarGroupLabel className="text-center mx-auto text-5xl mb-10">
             Logo
           </SidebarGroupLabel>
           <SidebarGroupContent>
@@ -50,7 +50,7 @@ export function AppSidebar() {
                         href={item.url}
                         className={`${
                           isActive
-                            ? "bg-gradient-to-r from-[#003780] to-[gray] text-white hover:text-white font-semibold "
+                            ? "bg-gradient-to-r from-[#003780] to-[gray] text-white hover:text-white font-semibold shadow-lg"
                             : "text-[#003780] font-semibold hover:bg-gradient-to-r hover:from-[#003780] hover:to-[gray] hover:text-white"
                         } py-5`}
                       >
