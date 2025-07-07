@@ -1,7 +1,10 @@
+import GuestTable from "./_components/GuestTable"
 
 const page = () => {
   return (
-    <div>This is check in page...</div>
+    <div>
+      <GuestTable />
+    </div>
   )
 }
 

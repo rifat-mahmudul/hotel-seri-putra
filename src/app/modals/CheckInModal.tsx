@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Dispatch, SetStateAction } from "react";
 
-const GuestInfoModal = ({
+const CheckInModal = ({
   isModalOpen,
   setIsModalOpen,
 }: {
@@ -290,4 +290,4 @@ const GuestInfoModal = ({
   );
 };
 
-export default GuestInfoModal;
+export default CheckInModal;
